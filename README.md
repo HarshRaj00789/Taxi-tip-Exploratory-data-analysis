@@ -46,12 +46,12 @@ To run the analysis on your local machine, follow these steps:
    ```bash
    git clone https://github.com/your-username/yellow-taxi-dataset-analysis.git
 2. Navigate to the project directory:
-   '''bash
+   ```bash
    cd yellow-taxi-dataset-analysis
-3. Open the Jupyter Notebook:
-   '''bash
+4. Open the Jupyter Notebook:
+   ```bash
    Open the Jupyter Notebook Yellow Taxi Dataset Analysis.ipynb
-4. Run the notebook cells to perform the analysis.
+5. Run the notebook cells to perform the analysis.
 
 ## Results
 The analysis results are documented within the notebook, showcasing various visualizations and insights derived from the data. Key findings include:
