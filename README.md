@@ -9,6 +9,7 @@ This project involves the analysis of the Yellow Taxi dataset. Utilizing Python 
 - [Libraries Used](#libraries-used)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Usage](#usage)
+- [Analysis](#Analysis)
 - [Results](#results)
 
 ## Introduction
@@ -53,10 +54,30 @@ To run the analysis on your local machine, follow these steps:
    Open the Jupyter Notebook Yellow Taxi Dataset Analysis.ipynb
 5. Run the notebook cells to perform the analysis.
 
+## Analysis
+The analysis follows these key steps:
+1. Data Loading and Exploration:
+   - Load the data into a Pandas DataFrame.
+   -Display the first few rows, summary statistics, and data types.
+2. Data Cleaning:
+   - Convert relevant columns to DateTime format for temporal analysis.
+   - Handle missing values and convert data types as necessary.
+3. Visualization:
+   - Generate box plots and histograms for trip distances, total fare amounts, and tips to identify distributions and outliers.
+   - Create bar plots to visualize the total number of rides and revenue by month and day of the week.
+4. Statistical Analysis:
+   - Calculate average tips based on passenger counts.
+   - Analyze ride patterns segmented by vendor and other attributes.
+5. Trip Duration Calculation:
+   - Compute the duration of each trip using the pickup and drop-off timestamps.
+
 ## Results
 The analysis results are documented within the notebook, showcasing various visualizations and insights derived from the data. Key findings include:
 - Peak hours for taxi rides
 - Distribution of trip distances and fare amounts
 - Patterns in pickup and drop-off locations
+
+
+
 
   
